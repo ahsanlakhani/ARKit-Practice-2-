@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		849AC1A01F8FA91A000B6CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AC19F1F8FA91A000B6CC2 /* AppDelegate.swift */; };
-		849AC1A21F8FA91A000B6CC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AC1A11F8FA91A000B6CC2 /* ViewController.swift */; };
+		849AC1A21F8FA91A000B6CC2 /* AddBoxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AC1A11F8FA91A000B6CC2 /* AddBoxVC.swift */; };
 		849AC1A51F8FA91A000B6CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849AC1A31F8FA91A000B6CC2 /* Main.storyboard */; };
 		849AC1A71F8FA91A000B6CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849AC1A61F8FA91A000B6CC2 /* Assets.xcassets */; };
 		849AC1AA1F8FA91A000B6CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849AC1A81F8FA91A000B6CC2 /* LaunchScreen.storyboard */; };
 		849AC1B51F8FA91B000B6CC2 /* World_TrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AC1B41F8FA91B000B6CC2 /* World_TrackingTests.swift */; };
 		849AC1C01F8FA91B000B6CC2 /* World_TrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AC1BF1F8FA91B000B6CC2 /* World_TrackingUITests.swift */; };
+		84DFFEF21F92104000CAA0E7 /* ResetWorldOriginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFEF11F92104000CAA0E7 /* ResetWorldOriginViewController.swift */; };
+		84DFFEF41F92336B00CAA0E7 /* RandomPositionObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DFFEF31F92336B00CAA0E7 /* RandomPositionObjectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		849AC19C1F8FA91A000B6CC2 /* World Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849AC19F1F8FA91A000B6CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		849AC1A11F8FA91A000B6CC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		849AC1A11F8FA91A000B6CC2 /* AddBoxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBoxVC.swift; sourceTree = "<group>"; };
 		849AC1A41F8FA91A000B6CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849AC1A61F8FA91A000B6CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849AC1A91F8FA91A000B6CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		849AC1BB1F8FA91B000B6CC2 /* World TrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World TrackingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849AC1BF1F8FA91B000B6CC2 /* World_TrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World_TrackingUITests.swift; sourceTree = "<group>"; };
 		849AC1C11F8FA91B000B6CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DFFEF11F92104000CAA0E7 /* ResetWorldOriginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetWorldOriginViewController.swift; sourceTree = "<group>"; };
+		84DFFEF31F92336B00CAA0E7 /* RandomPositionObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPositionObjectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				849AC19F1F8FA91A000B6CC2 /* AppDelegate.swift */,
-				849AC1A11F8FA91A000B6CC2 /* ViewController.swift */,
+				849AC1A11F8FA91A000B6CC2 /* AddBoxVC.swift */,
+				84DFFEF11F92104000CAA0E7 /* ResetWorldOriginViewController.swift */,
+				84DFFEF31F92336B00CAA0E7 /* RandomPositionObjectViewController.swift */,
 				849AC1A31F8FA91A000B6CC2 /* Main.storyboard */,
 				849AC1A61F8FA91A000B6CC2 /* Assets.xcassets */,
 				849AC1A81F8FA91A000B6CC2 /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849AC1A21F8FA91A000B6CC2 /* ViewController.swift in Sources */,
+				849AC1A21F8FA91A000B6CC2 /* AddBoxVC.swift in Sources */,
 				849AC1A01F8FA91A000B6CC2 /* AppDelegate.swift in Sources */,
+				84DFFEF21F92104000CAA0E7 /* ResetWorldOriginViewController.swift in Sources */,
+				84DFFEF41F92336B00CAA0E7 /* RandomPositionObjectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
 				INFOPLIST_FILE = "World Tracking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.panacloud.World-Tracking";
@@ -441,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
 				INFOPLIST_FILE = "World Tracking/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.panacloud.World-Tracking";
