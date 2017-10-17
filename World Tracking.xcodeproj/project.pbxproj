@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		843722E51F94AFCB000E3DE7 /* DefaultShapesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843722E41F94AFCB000E3DE7 /* DefaultShapesViewController.swift */; };
 		8470D7341F96059700B4D095 /* RelativePositioningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470D7331F96059700B4D095 /* RelativePositioningViewController.swift */; };
+		8470D7361F962DA600B4D095 /* RotationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470D7351F962DA600B4D095 /* RotationsViewController.swift */; };
 		849AC1A01F8FA91A000B6CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AC19F1F8FA91A000B6CC2 /* AppDelegate.swift */; };
 		849AC1A21F8FA91A000B6CC2 /* AddBoxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849AC1A11F8FA91A000B6CC2 /* AddBoxVC.swift */; };
 		849AC1A51F8FA91A000B6CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849AC1A31F8FA91A000B6CC2 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		843722E41F94AFCB000E3DE7 /* DefaultShapesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultShapesViewController.swift; sourceTree = "<group>"; };
 		8470D7331F96059700B4D095 /* RelativePositioningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativePositioningViewController.swift; sourceTree = "<group>"; };
+		8470D7351F962DA600B4D095 /* RotationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationsViewController.swift; sourceTree = "<group>"; };
 		849AC19C1F8FA91A000B6CC2 /* World Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		849AC19F1F8FA91A000B6CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849AC1A11F8FA91A000B6CC2 /* AddBoxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBoxVC.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				84DFFEF31F92336B00CAA0E7 /* RandomPositionObjectViewController.swift */,
 				843722E41F94AFCB000E3DE7 /* DefaultShapesViewController.swift */,
 				8470D7331F96059700B4D095 /* RelativePositioningViewController.swift */,
+				8470D7351F962DA600B4D095 /* RotationsViewController.swift */,
 				849AC1A31F8FA91A000B6CC2 /* Main.storyboard */,
 				849AC1A61F8FA91A000B6CC2 /* Assets.xcassets */,
 				849AC1A81F8FA91A000B6CC2 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843722E51F94AFCB000E3DE7 /* DefaultShapesViewController.swift in Sources */,
+				8470D7361F962DA600B4D095 /* RotationsViewController.swift in Sources */,
 				849AC1A21F8FA91A000B6CC2 /* AddBoxVC.swift in Sources */,
 				8470D7341F96059700B4D095 /* RelativePositioningViewController.swift in Sources */,
 				849AC1A01F8FA91A000B6CC2 /* AppDelegate.swift in Sources */,
