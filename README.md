@@ -8,4 +8,5 @@ Things done:
 4- Random Positioning.  
 5- Default Shapes of Scene Kit.  
 6- Custom Shapes with UI Bezier Path.  
+7- Relative positioning.  
   
