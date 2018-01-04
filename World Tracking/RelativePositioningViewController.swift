@@ -44,15 +44,15 @@ class RelativePositioningViewController: UIViewController {
         //this is relative to the root node
 //        node1.position = SCNVector3(-0.1,0.5,-0.5)
         
-        //if we want to make node1 relative to the node so
-        //if we put y=0 so it will position node1 on the mid/center of the node
+        //if we want to make boxNode relative to the node so
+        //if we put y=0 so it will position boxNode on the mid/center of the node
         boxNode.position = SCNVector3(0,-0.05,0)
         
         let doorNode = SCNNode(geometry: SCNPlane(width: 0.05, height: 0.07))
         doorNode.geometry?.firstMaterial?.diffuse.contents = UIColor.blue
         doorNode.position = SCNVector3(0,-0.015,0.051)
         
-        //and then we will make node1 a child of node
+        //and then we will make boxNode a child of node
         node.addChildNode(boxNode)
         boxNode.addChildNode(doorNode)
         

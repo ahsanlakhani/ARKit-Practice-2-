@@ -75,7 +75,7 @@ class DefaultShapesViewController: UIViewController {
         path.addLine(to: CGPoint(x: 0.4, y: 0))
         
         //extrusion depth is the thickness of line
-        let shape = SCNShape(path: path, extrusionDepth: 0.2)
+        let shape = SCNShape(path: path, extrusionDepth: 0.0002)
         node.geometry = shape
         
         //node has no attributes so we have to give it those attributes

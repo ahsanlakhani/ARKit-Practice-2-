@@ -71,22 +71,22 @@ class RotationsViewController: UIViewController {
 //        self.sceneView.scene.rootNode.addChildNode(node)
         
         /* ************** relative rotation on x axis *************** */
-//        let node = SCNNode()
-//        node.geometry = SCNCylinder(radius: 0.05, height: 0.2)
-//        node.geometry?.firstMaterial?.diffuse.contents = UIColor.blue
-//        node.position = SCNVector3(0,0,-0.2)
-        //main property thats involved in rotation is euler angles
-        //euler angles control a nodes orientation
-//        node.eulerAngles = SCNVector3(Float(90.degreesToRadians),0,0)
-//        self.sceneView.scene.rootNode.addChildNode(node)
+        let node = SCNNode()
+        node.geometry = SCNCylinder(radius: 0.05, height: 0.2)
+        node.geometry?.firstMaterial?.diffuse.contents = UIColor.blue
+        node.position = SCNVector3(0,0,-0.2)
+//        main property thats involved in rotation is euler angles
+//        euler angles control a nodes orientation
+        node.eulerAngles = SCNVector3(Float(90.degreesToRadians),0,0)
+        self.sceneView.scene.rootNode.addChildNode(node)
         
-        //the pyramid is placed at the back of the cylinder but in relative rotation, to preserve its orientation to the cylinder the pyramid had to rotate 90 degrees around the cylinder
-        //rule = if you horizontally rotate the parent node around itself, the child node is going to vertically rotate around the parent node to preserve its relative orientation to its parent
+//        the pyramid is placed at the back of the cylinder but in relative rotation, to preserve its orientation to the cylinder the pyramid had to rotate 90 degrees around the cylinder
+//        rule = if you horizontally rotate the parent node around itself, the child node is going to vertically rotate around the parent node to preserve its relative orientation to its parent
         
-//        let pyramid = SCNNode(geometry: SCNPyramid(width: 0.1, height: 0.1, length: 0.1))
-//        pyramid.geometry?.firstMaterial?.diffuse.contents = UIColor.red
-//        pyramid.position = SCNVector3(0,0,-0.2)
-//        node.addChildNode(pyramid)
+        let pyramid = SCNNode(geometry: SCNPyramid(width: 0.1, height: 0.1, length: 0.1))
+        pyramid.geometry?.firstMaterial?.diffuse.contents = UIColor.red
+        pyramid.position = SCNVector3(0,0,-0.2)
+        node.addChildNode(pyramid)
         
         /* ************** relative rotation on y axis *************** */
 //        let node = SCNNode()
@@ -124,24 +124,24 @@ class RotationsViewController: UIViewController {
         /* ************** rotating the house *************** */
 
         
-        let node = SCNNode()
-        node.geometry = SCNPyramid(width: 0.1, height: 0.1, length: 0.1)
-        node.geometry?.firstMaterial?.diffuse.contents = UIColor.orange
-        node.position = SCNVector3(0.2,0.3,-0.2)
-        //when we are rotating the pyramid the box will also rotate around the pyramid to preserve its orientation
-        node.eulerAngles = SCNVector3(Float(180.degreesToRadians),0,0)
+//        let node = SCNNode()
+//        node.geometry = SCNPyramid(width: 0.1, height: 0.1, length: 0.1)
+//        node.geometry?.firstMaterial?.diffuse.contents = UIColor.orange
+//        node.position = SCNVector3(0.2,0.3,-0.2)
+//        //when we are rotating the pyramid the box will also rotate around the pyramid to preserve its orientation
+//        node.eulerAngles = SCNVector3(Float(180.degreesToRadians),0,0)
+//
+//        let boxNode = SCNNode(geometry: SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0))
+//        boxNode.geometry?.firstMaterial?.diffuse.contents = UIColor.red
+//
+//        boxNode.position = SCNVector3(0,-0.05,0)
+//
+//        let doorNode = SCNNode(geometry: SCNPlane(width: 0.05, height: 0.07))
+//        doorNode.geometry?.firstMaterial?.diffuse.contents = UIColor.blue
+//        doorNode.position = SCNVector3(0,-0.015,0.051)
 
-        let boxNode = SCNNode(geometry: SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0))
-        boxNode.geometry?.firstMaterial?.diffuse.contents = UIColor.red
-
-        boxNode.position = SCNVector3(0,-0.05,0)
-
-        let doorNode = SCNNode(geometry: SCNPlane(width: 0.05, height: 0.07))
-        doorNode.geometry?.firstMaterial?.diffuse.contents = UIColor.blue
-        doorNode.position = SCNVector3(0,-0.015,0.051)
-
-        node.addChildNode(boxNode)
-        boxNode.addChildNode(doorNode)
+//        node.addChildNode(boxNode)
+//        boxNode.addChildNode(doorNode)
 
 
         self.sceneView.scene.rootNode.addChildNode(node)
